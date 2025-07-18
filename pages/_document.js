@@ -14,24 +14,26 @@ class CustomDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap"
             rel="stylesheet"
           />
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-          />
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto+Slab|Roboto:300,400,500,700&display=optional"
-          />
+          {/*<link*/}
+          {/*  rel="stylesheet"*/}
+          {/*  href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"*/}
+          {/*/>*/}
+          {/*<link*/}
+          {/*  rel="stylesheet"*/}
+          {/*  href="https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto+Slab|Roboto:300,400,500,700&display=optional"*/}
+          {/*/>*/}
           <script
             type="application/javascript"
             src="https://accounts.google.com/gsi/client"
             async
           />
+          <script
+            type="text/javascript"
+            src="https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js"
+            async
+          />
           <meta name="theme-color" content="#111827" />
-          {/*<meta*/}
-          {/*  name="robots"*/}
-          {/*  content="nofollow, noindex, max-snippet:1, max-video-preview:1, max-image-preview:standard"*/}
-          {/*/>*/}
+
         </Head>
         <body>
           <Main />

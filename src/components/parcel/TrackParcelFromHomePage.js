@@ -94,6 +94,8 @@ const TrackParcelFromHomePage = () => {
               lanDirection={lanDirection}
               height={isSmall ? "35px" : "43px"}
               borderRadius="8px"
+              background={"transparent"}
+
             />
           )}
 
